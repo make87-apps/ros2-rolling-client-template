@@ -1,0 +1,8 @@
+build_kit:
+  name: ros2
+  version: latest
+requester_endpoints:
+  - name: REQUESTER_ENDPOINT
+    requester_message_type: ros2_interfaces_rolling.example_interfaces.srv.AddTwoIntsReq
+    provider_message_type: ros2_interfaces_rolling.example_interfaces.srv.AddTwoIntsRes
+needs_host_network: true
